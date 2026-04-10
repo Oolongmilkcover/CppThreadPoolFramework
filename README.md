@@ -108,7 +108,7 @@
 1. 将项目文件分为 ThreadPool.hpp（头文件，包含核心实现）和 main（测试文件）；
 2. 编译命令(GCC)
 ```bash
-g++ main.cpp -o threadpool_test -std=c++20 -lpthread  
+g++ ThreadPool.hpp -o threadpool_test -std=c++20 -lpthread  
 ```
 ```cmd
 g++ main.cpp -o threadpool_test -std=c++20    
